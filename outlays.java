@@ -1,5 +1,3 @@
-package letsgo;
-
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -35,7 +33,7 @@ public class outlays extends JPanel {
     }
 
     public static void main(String args[]) {
-        JFrame f = new JFrame("Income");
+        JFrame f = new JFrame("Outlays");
         
         outlays p = new outlays();
 
