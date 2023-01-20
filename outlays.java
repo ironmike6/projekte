@@ -24,7 +24,6 @@ public class outlays extends JPanel {
     public void paintComponent(Graphics g)  {
     	
         for(int i = 0; i < value.length; i++) {
-        	System.out.println(value);
             g.setColor(colors[i%colors.length]);
             g.fillArc(10, 10, 360, 360, start, -(value[i]*360)/sum-3);
             g.drawString(label[i], 380, xpos += 15);
